@@ -1,0 +1,49 @@
+body {
+  /* background:#e0c2a6; */
+  /* background: #6cb6bd; */
+  background-color: #66BFBF;
+ 
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: "black";
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+
+.navbar{
+  background-color: #f5ba13;
+  font-family: "McLaren", cursive; 
+}
+
+hr {
+  border: dotted rgb(99, 98, 98) 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 50px auto;
+}
+
+.info-row {
+  margin: 100px auto 125px auto;
+  text-align: left;
+  text-justify: auto;
+}
+
+.left-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.right-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
