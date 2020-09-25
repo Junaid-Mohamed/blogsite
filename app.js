@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const port = 6001 || process.env.PORT;
+// const port = 6001 || process.env.PORT;
 
 const app = express();
 
@@ -26,6 +26,6 @@ if (process.env.NODE_ENV == "production") {
   });
 }
 
-app.listen(port, () => {
-  console.log(`server running at ${port}`);
+app.listen(6001 || process.env.PORT, () => {
+  console.log("server running");
 });
